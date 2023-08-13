@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bubbles {
+  background-color: rebeccapurple;
+  height: 500px;
+}
+.full-bubbles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: royalblue;
+  margin-left: 10px;
+}
+
+.full-bubbles:hover {
+  cursor: pointer;
+  background-color: red;
+}
